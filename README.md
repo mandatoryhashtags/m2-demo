@@ -3,15 +3,15 @@
 
 | Env | FrontURL | AdminURL |
 | --- | :------- | :------- |
-| DEV | https://app.exampleproject.test/  | https://app.exampleproject.test/backend/  |
-| STG | https://stage.exampleproject.com/ | https://stage.exampleproject.com/backend/ |
-| PRD | https://www.exampleproject.com/   | https://www.exampleproject.com/backend/   |
+| DEV | https://app.m2-demo.test/  | https://app.m2-demo.test/backend/  |
+| STG | https://stage.m2-demo.com/ | https://stage.m2-demo.com/backend/ |
+| PRD | https://www.m2-demo.com/   | https://www.m2-demo.com/backend/   |
 
 Other useful URLs on DEV:
 
 * https://mailhog.warden.test/
-* https://rabbitmq.exampleproject.test/
-* https://elasticsearch.exampleproject.test/
+* https://rabbitmq.m2-demo.test/
+* https://elasticsearch.m2-demo.test/
 
 ## Developer Setup
 
@@ -22,16 +22,16 @@ Other useful URLs on DEV:
 
 ### Initializing Environment
 
-In the below examples `~/Sites/exampleproject` is used as the path. Simply replace this with whatever path you will be running this project from. It is recommended however to deploy the project locally to a case-sensitive volume.
+In the below examples `~/Sites/m2-demo` is used as the path. Simply replace this with whatever path you will be running this project from. It is recommended however to deploy the project locally to a case-sensitive volume.
 
  1. Clone the project codebase.
 
         git clone -b develop git@github.com:<GITHUB_ACCOUNT>/<REPOSITORY_NAME>.git \
-            ~/Sites/exampleproject
+            ~/Sites/m2-demo
 
  2. Change into the project directory.
 
-        cd ~/Sites/exampleproject
+        cd ~/Sites/m2-demo
 
  3. Configure composer credentials.
 
