@@ -4,8 +4,7 @@
 | Env | FrontURL | AdminURL |
 | --- | :------- | :------- |
 | DEV | https://app.m2-demo.test/  | https://app.m2-demo.test/backend/  |
-| STG | https://stage.m2-demo.com/ | https://stage.m2-demo.com/backend/ |
-| PRD | https://www.m2-demo.com/   | https://www.m2-demo.com/backend/   |
+
 
 Other useful URLs on DEV:
 
