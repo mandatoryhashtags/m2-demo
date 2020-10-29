@@ -25,7 +25,7 @@ In the below examples `~/Sites/m2-demo` is used as the path. Simply replace this
 
  1. Clone the project codebase.
 
-        git clone -b develop git@github.com:<GITHUB_ACCOUNT>/<REPOSITORY_NAME>.git \
+        git clone -b develop git@github.com:mandatoryhashtags/m2-demo.git \
             ~/Sites/m2-demo
 
  2. Change into the project directory.
